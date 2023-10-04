@@ -19,7 +19,7 @@ public class WeatherForecastTests
 
     [Theory]
     [InlineAutoNSubstituteData("", "", "", "")]
-    [InlineAutoNSubstituteData("9961", "DK", "DK0010274414", "52345678901234")]
+    [InlineAutoNSubstituteData("8888", "GBP", "010010274414", "52345678901234")]
     public async Task GetWeatherForecast_Allow_ReturnsStatusCode200(
         WeatherForecast weatherForecast,
         CancellationTokenSource cancellationTokenSource,
